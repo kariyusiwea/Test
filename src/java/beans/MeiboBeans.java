@@ -16,8 +16,8 @@ import javax.inject.Named;
 @Named("myBean")
 @RequestScoped
 public class MeiboBeans {
-    private Integer number = 3;
-    private String name = "TEST";
+    private Integer number;
+    private String name;
     
     public Integer getNumber(){
         return number;
